@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeBase.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		237213EFA7FD48A9838EF945 /* SF-Pro-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08F27D4780254960BA4C96EE /* SF-Pro-Display-Regular.ttf */; };
+		3F9C4A45A10B4CD791ECC502 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78311A6FEE6844F6837E959E /* Cabin-SemiBold.ttf */; };
+		624673E10AC343309C8419DE /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E1405606B814AE1A477077C /* Cabin-Medium.ttf */; };
+		65E5F88BA88047D99AFCEF8D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D50846082014CDEB3271A0E /* Poppins-Bold.ttf */; };
+		71DC07D6F2D74CE98438AC01 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4488E4463E42F18589CBB8 /* Poppins-Light.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7ED14B4C4D5343C2B62ADE8C /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8BF7300FE2C40F2956202AB /* Cabin-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		868F56C4D92E466BB8C87F29 /* SF-Pro-Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 611D11BC90B845B09CBB4329 /* SF-Pro-Display-Medium.ttf */; };
 		97ADC274D80CAE0C8911D28D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D857602C84454F6A96DEC507 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E47198624FD47A391D4994C /* Poppins-Regular.ttf */; };
+		E1418195CB0F4A6083CEFEDC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47B1BDAFF2EF4A7AAEDA345A /* Poppins-SemiBold.ttf */; };
+		F87F451C380747D9B6531114 /* SF-Pro-Display-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C07EB4D1CB043DC8BC78F18 /* SF-Pro-Display-Semibold.ttf */; };
+		FAE91FA372F24B3BB82A897D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2398C01C3A5F41258C46D29A /* Poppins-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F27D4780254960BA4C96EE /* SF-Pro-Display-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.ttf"; path = "../src/assets/fonts/SF-Pro-Display-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeBase/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeBase/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ReactNativeBase/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2398C01C3A5F41258C46D29A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		2D50846082014CDEB3271A0E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ReactNativeBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.debug.xcconfig"; sourceTree = "<group>"; };
+		3E47198624FD47A391D4994C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		47B1BDAFF2EF4A7AAEDA345A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ReactNativeBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBase.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBase/Pods-ReactNativeBase.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1405606B814AE1A477077C /* Cabin-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Medium.ttf"; path = "../src/assets/fonts/Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		611D11BC90B845B09CBB4329 /* SF-Pro-Display-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Medium.ttf"; path = "../src/assets/fonts/SF-Pro-Display-Medium.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ReactNativeBase/AppDelegate.swift; sourceTree = "<group>"; };
+		78311A6FEE6844F6837E959E /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBold.ttf"; path = "../src/assets/fonts/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		7C07EB4D1CB043DC8BC78F18 /* SF-Pro-Display-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.ttf"; path = "../src/assets/fonts/SF-Pro-Display-Semibold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeBase/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8BF7300FE2C40F2956202AB /* Cabin-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Regular.ttf"; path = "../src/assets/fonts/Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		CF4488E4463E42F18589CBB8 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +82,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		509032144D7E4FE09DAC1AF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C07EB4D1CB043DC8BC78F18 /* SF-Pro-Display-Semibold.ttf */,
+				5E1405606B814AE1A477077C /* Cabin-Medium.ttf */,
+				611D11BC90B845B09CBB4329 /* SF-Pro-Display-Medium.ttf */,
+				CF4488E4463E42F18589CBB8 /* Poppins-Light.ttf */,
+				2398C01C3A5F41258C46D29A /* Poppins-Medium.ttf */,
+				78311A6FEE6844F6837E959E /* Cabin-SemiBold.ttf */,
+				08F27D4780254960BA4C96EE /* SF-Pro-Display-Regular.ttf */,
+				B8BF7300FE2C40F2956202AB /* Cabin-Regular.ttf */,
+				3E47198624FD47A391D4994C /* Poppins-Regular.ttf */,
+				2D50846082014CDEB3271A0E /* Poppins-Bold.ttf */,
+				47B1BDAFF2EF4A7AAEDA345A /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +116,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				509032144D7E4FE09DAC1AF8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +203,17 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				97ADC274D80CAE0C8911D28D /* PrivacyInfo.xcprivacy in Resources */,
+				F87F451C380747D9B6531114 /* SF-Pro-Display-Semibold.ttf in Resources */,
+				624673E10AC343309C8419DE /* Cabin-Medium.ttf in Resources */,
+				868F56C4D92E466BB8C87F29 /* SF-Pro-Display-Medium.ttf in Resources */,
+				71DC07D6F2D74CE98438AC01 /* Poppins-Light.ttf in Resources */,
+				FAE91FA372F24B3BB82A897D /* Poppins-Medium.ttf in Resources */,
+				3F9C4A45A10B4CD791ECC502 /* Cabin-SemiBold.ttf in Resources */,
+				237213EFA7FD48A9838EF945 /* SF-Pro-Display-Regular.ttf in Resources */,
+				7ED14B4C4D5343C2B62ADE8C /* Cabin-Regular.ttf in Resources */,
+				D857602C84454F6A96DEC507 /* Poppins-Regular.ttf in Resources */,
+				65E5F88BA88047D99AFCEF8D /* Poppins-Bold.ttf in Resources */,
+				E1418195CB0F4A6083CEFEDC /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
