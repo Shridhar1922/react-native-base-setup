@@ -28,13 +28,13 @@ const horizontalScale = (size: number): number => (width / guidelineBaseWidth) *
  * Moderate scaling: provides a middle ground between fixed and fully fluid.
  * @param factor - 0.5 is default. Higher means more responsive, lower means more fixed.
  */
-const moderateScale = (size: number, factor: number = 0.5): number => 
+const moderateScale = (size: number, factor: number = 0.5): number =>
   size + (scale(size) - size) * factor;
 
 /**
  * Moderate scaling for vertical dimensions
  */
-const moderateScaleVertical = (size: number, factor: number = 0.5): number => 
+const moderateScaleVertical = (size: number, factor: number = 0.5): number =>
   size + (verticalScale(size) - size) * factor;
 
 /**

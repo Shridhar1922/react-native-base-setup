@@ -1,5 +1,5 @@
-import { StyleSheet, ViewStyle, FlexStyle } from 'react-native';
-import { scale, verticalScale, moderateScale, horizontalScale } from './responsiveStyles';
+import { StyleSheet, ViewStyle } from 'react-native';
+import { verticalScale, moderateScale, horizontalScale } from './responsiveStyles';
 import { Colors } from './colors';
 
 /**
