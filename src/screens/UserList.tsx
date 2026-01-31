@@ -26,8 +26,8 @@ export const UserList = () => {
     <View style={[Spacing.mV(50)]}>
       <FlatList
         data={data}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
+        keyExtractor={(item: any) => item.id.toString()}
+        renderItem={({ item }: { item: any }) => (
           <View style={[CommonStyles.container]}>
             <Text
               style={{
