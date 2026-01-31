@@ -9,7 +9,28 @@ basic setup
 - Slices/Hooks: camelCase (e.g., authSlice.ts, useAuth.ts).
 - Files: Always use .tsx for files containing JSX and .ts for pure logic.
 
-2. ResponsiveStyles
+---
+
+2. Component-Specific Styling Rules
+
+   A.View Tag:
+   - Flexbox Layout: flex, flexDirection, justifyContent, alignItems.
+   - Box Model: margin, padding, width, height.
+   - Borders: borderWidth, borderColor, borderRadius.
+   - Backgrounds: backgroundColor, opacity.
+   - Shadows: elevation (Android) or shadowColor/shadowOffset (iOS).
+
+   B.Text Tag:
+   - Typography: fontFamily, fontSize, fontWeight, fontStyle.
+   - Coloring: color (this sets the text color).
+   - Alignment: textAlign (auto, left, right, center, justify).
+   - Decoration: textDecorationLine (none, underline, line-through).
+   - Spacing: lineHeight, letterSpacing.
+
+---
+
+3. ResponsiveStyles
+
    A. Horizontal Properties [scale / horizontalScale]
    - width: (e.g., width: scale(100))
    - marginHorizontal
