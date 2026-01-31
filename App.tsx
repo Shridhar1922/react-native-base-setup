@@ -11,40 +11,20 @@ import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-cont
 import { FontFamily, FontSize } from './src/styles/typography';
 import { moderateScale } from './src/styles/responsiveStyles';
 import { CommonStyles, Spacing } from './src/styles/commonStyles';
+import { store } from './src/redux/store';
+import { Provider } from 'react-redux';
+import { UserList } from './src/screens/UserList';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
+    <Provider store={store}>
+      <SafeAreaProvider>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <UserList />
+      </SafeAreaProvider>
+    </Provider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={[CommonStyles.container]}>
-      <Text
-        style={{
-          fontFamily: FontFamily.FONT_FAMILY_PRIMARY_BOLD,
-          fontSize: FontSize.S_10,
-        }}
-      >
-        Welcome to React Native!
-      </Text>
-      <NewAppScreen templateFileName="App.tsx" safeAreaInsets={safeAreaInsets} />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    // padding: Spacing.p(100) as number,
-  },
-});
 
 export default App;
