@@ -60,11 +60,12 @@ basic setup
 ---
 
 4. Code Quality & Submission (PR Checklist)
+
    A. Local Validation:
    - Before pushing code or raising a Pull Request (PR), you must run the linting script to ensure code consistency and catch potential bugs.
 
    B. Command: npm run lint
 
-   C. Fixing Errors: \* If the linter reports errors, fix them manually.
+   C. Fixing Errors: If the linter reports errors, fix them manually.
 
    d. Code with active linting errors will not be merged.
